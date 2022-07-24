@@ -1,0 +1,21 @@
+.hero4 {
+    background-color: aqua;
+    height: 65em;
+    
+}
+
+.colecDiv {
+    display: grid;
+    grid-template-columns: 55em 55em;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.colectionss {
+    background-color: green;
+    height: 26em;
+    margin-left: 2em;
+    margin-top: 5em;
+}

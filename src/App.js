@@ -1,8 +1,8 @@
 import './App.css';
-import Hero1 from './COMPONENTS/Heroes/hero1/hero1';
-import Hero2 from './COMPONENTS/Heroes/hero2/hero2';
+import Home from './PAGES/Home/Home'
 import { Route, Routes } from 'react-router-dom';
 import StreetBoy from './PAGES/StreetBoy/streetBoy';
+import Footer from './COMPONENTS/Footer/footer';
 
 function App() {
   return (
@@ -12,12 +12,13 @@ function App() {
             </div>
        <Routes>
 
-          <Route exact path="/" element={ <Hero1 /> } />
+          <Route exact path="/" element={ <Home /> } />
           <Route exact path="/streetMasculino" element={ <StreetBoy /> } />
 
 
        </Routes>
 
+<Footer />
 
 
 

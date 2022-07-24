@@ -77,6 +77,20 @@ function HeaderBoy() {
 
            <div className='girlAndBoyHeader'>
 
+           <div className='girl'>
+                    <a href='/streetMasculino' className='boyF'>  
+                        <div className='girl11'> 
+                            <div> 
+                                <img  src={boy} className="boy" alt="" />
+                            </div>
+
+                        <div className='girlf'> 
+                            <h1  > Moda Masculina</h1>
+                        </div>
+                     </div>           
+                  </a>     
+               </div>
+
                <div className='girl'>
                  <a href='' className='boyF'> 
                     <div className='girl11'> 
@@ -93,19 +107,7 @@ function HeaderBoy() {
                   </a>
                     </div>
 
-                    <div className='girl'>
-                    <a href='/streetMasculino' className='boyF'>  
-                        <div className='girl11'> 
-                            <div> 
-                                <img  src={boy} className="boy" alt="" />
-                            </div>
 
-                        <div className='girlf'> 
-                            <h1  > Moda Masculina</h1>
-                        </div>
-                     </div>           
-                  </a>     
-               </div>
 
 
            </div>

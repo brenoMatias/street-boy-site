@@ -1,0 +1,55 @@
+.boyMain {
+    display: grid;
+    grid-template-columns: 18% 82%;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.aside {
+    background-color: black;
+    height: 100%;
+    /* border: 3px solid rgb(5, 4, 0); */
+    border-right: 2px solid green;
+}
+
+.mainContent {
+    background-color: white;
+}
+
+.topicLink {
+    border: 2px solid green;
+
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 45px;
+    margin-top: 1em;
+    background-color: white;
+
+}
+
+.mostSellBoy {
+    background-color: rgb(170, 236, 170);
+    width: 99%;
+    height: 40em;
+    margin-top: 8em;
+} 
+
+.promotions {
+    background-color: rgb(246, 251, 246);
+    width: 99%;
+    height: 40em;
+    margin-top: 2em;
+} 
+
+.colections {
+    background-color: rgb(246, 251, 246);
+    width: 99%;
+    height: 40em;
+    margin-top: 2em;
+    margin-bottom: 10em;
+
+}
