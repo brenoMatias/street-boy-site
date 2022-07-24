@@ -4,6 +4,8 @@
     height: 2em;
     display: flex;
     justify-content: center;
+    align-items: center;
+    border: 2px solid gold;
 }
 
 .contHero1 {
@@ -18,14 +20,14 @@
 }
 
 .contH1 {
-    background-color: rgb(235, 235, 241);
+    /* background-color: rgb(235, 235, 241); */
     height: 22em;
     display: flex;
     justify-content: center;
 }
 
 .contH11 {
-    background-color: rgb(235, 235, 241);
+    /* background-color: rgb(235, 235, 241); */
     height: 22em;
     display: flex;
     justify-content: center;
@@ -76,11 +78,15 @@
 }
 
 .h1h {
-    background-color: yellow;
+    background-color: rgb(5, 5, 0);
     border-radius: 45px;
     display: flex;
     justify-content: center;
-    font-size: 2em;
+    font-size: 1em;
+    width: 10em;
+    align-items: center;
+    border: 5px solid rgb(242, 234, 4);
+    color: white;
 }
 
 .boy {
@@ -95,4 +101,33 @@
     align-items:initial;
     color: white;
 
+}
+
+.login {
+    display: flex;
+    margin-top: 1em;
+}
+
+.loginI {
+    width: 5em;
+    margin-right: 1em;
+}
+
+.h1A {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    color: yellow;
+    font-size: 1em;
+    height: 2.5em;
+    width: 70%;
+    align-items: center;
+    border-radius: 45px;
+    border: 5px solid black;
+    margin-top: 2em;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
 }

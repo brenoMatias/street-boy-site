@@ -3,6 +3,10 @@ import './hero1css.css';
 import boyCentral from './boyCentral.png';
 import boy from './boy.png';
 import girl from './girl.png';
+import streetboy from './streetboy.png';
+import login from './login.png';
+import signup from './signup.png';
+import cart from './cart.png';
 
 function Hero1() {
 
@@ -19,8 +23,18 @@ function Hero1() {
                <div className='contH11'>
 
                    <div>
-                       <h1 className='h1h'> login - já tenho conta</h1>
-                       <h1 className='h1h'> cadastrar - não tenho conta</h1>
+                       <div className='login'> 
+                       <img src={login} className="loginI" alt="" />
+
+                       <h1 className='h1h'> Já tenho conta</h1>
+                    </div>
+
+
+                    <div className='login'> 
+                       <img src={signup} className="loginI" alt="" />
+
+                       <h1 className='h1h'> Não tenho conta</h1>
+                    </div>
 
                    </div>
                </div>
@@ -44,9 +58,21 @@ function Hero1() {
 
                <div className='contH11'>
                    <div>
-                       <h1 className='h1h'> carrinho</h1>
-                       <h1 className='h1h'> contato/sobre nós</h1>
-                   </div>
+
+                   <div className='login'> 
+                       <img src={cart} className="loginI" alt="" />
+
+                       <h1 className='h1h'> Carrinho</h1>
+                    </div>
+
+                   
+                   <div className='contact'> 
+
+                       <h1 className='h1A'> Contato/Sobre</h1>
+
+                 </div>
+
+        </div>
 
                </div>
 
