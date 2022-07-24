@@ -1,0 +1,98 @@
+.frete {
+    background-color: rgb(0, 0, 4);
+    color: white;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.contHero1 {
+    display: flex;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-column-gap: 0.2em;
+    grid-row-gap: 1em;
+    justify-items: stretch;
+    align-items: stretch;
+    background-color: rgb(247, 240, 240);
+}
+
+.contH1 {
+    background-color: rgb(235, 235, 241);
+    height: 22em;
+    display: flex;
+    justify-content: center;
+}
+
+.contH11 {
+    background-color: rgb(235, 235, 241);
+    height: 22em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.girlAndBoy {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+    background-color: rgba(22, 23, 22, 0.911);
+    height: 10em;
+    align-items: center;
+    border: 3px black solid;
+}
+
+.girl {
+    display: flex;
+    height: 90%;
+    justify-content: center;
+}
+
+
+
+.boyCentral {
+    height: 15em;
+    width: 15em;
+}
+
+.homDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.home {
+    font-size: 1em;
+    color: black;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.h1h {
+    background-color: yellow;
+    border-radius: 45px;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+}
+
+.boy {
+    
+}
+
+.modM {
+    font-size: 0.6em;
+    margin-top: -3em;
+    display: flex;
+    justify-content: center;
+    align-items:initial;
+    color: white;
+
+}
