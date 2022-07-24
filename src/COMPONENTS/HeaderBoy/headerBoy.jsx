@@ -1,25 +1,21 @@
 import React from 'react';
-import './hero1css.css';
-import boyCentral from './boyCentral.png';
-import boy from './boy.png';
-import girl from './girl.png';
-import streetboy from './streetboy.png';
+import './headerBoy.css';
 import login from './login.png';
 import signup from './signup.png';
 import cart from './cart.png';
-import { Link } from "react-router-dom";
+import boy from './boy.png';
+import girl from './girl.png';
+import streetboy1 from './streetboy1.png'
 
-function Hero1() {
-
+function HeaderBoy() {
     return (
-
         <div>
 
 
             
-           <div className='contHero1'>
+           <div className='contHeader'>
 
-               <div className='contH11'>
+               <div className='contH111'>
 
                    <div>
                        <div className='login'> 
@@ -42,8 +38,11 @@ function Hero1() {
 
                    <a href='/'> 
 
+                   <div className='homDiv'> 
+                        <h1 className='home'> Início</h1>
+                   </div>
 
-                        <img src={boyCentral} className="boyCentral" alt="" />
+                        <img src={streetboy1} className="boyCentralStreet" alt="" />
 
                     <div className='search'> 
                         <h1> buscar</h1>  
@@ -52,7 +51,7 @@ function Hero1() {
                    </a>
                </div>
 
-               <div className='contH11'>
+               <div className='contH111'>
                    <div>
 
                    <div className='login'> 
@@ -76,18 +75,18 @@ function Hero1() {
 
 
 
-           <div className='girlAndBoy'>
+           <div className='girlAndBoyHeader'>
 
                <div className='girl'>
-                 <a href=''> 
-                    <div className='girl1'> 
+                 <a href='' className='boyF'> 
+                    <div className='girl11'> 
 
               
                         <div> 
                                 <img  src={girl} className="boy" alt="" />
                             </div>
 
-                            <div className='modM'> 
+                            <div className='girlf'> 
                                     <h1 > Moda Feminina</h1>
                             </div>
                         </div>
@@ -95,14 +94,14 @@ function Hero1() {
                     </div>
 
                     <div className='girl'>
-                    <a href='/streetMasculino'>  
-                        <div className='girl1'> 
+                    <a href='/streetMasculino' className='boyF'>  
+                        <div className='girl11'> 
                             <div> 
                                 <img  src={boy} className="boy" alt="" />
                             </div>
 
-                        <div className='modM'> 
-                            <h1> Moda Masculina</h1>
+                        <div className='girlf'> 
+                            <h1  > Moda Masculina</h1>
                         </div>
                      </div>           
                   </a>     
@@ -115,8 +114,7 @@ function Hero1() {
 
 
         </div>
-
-    )
+    ) 
 }
 
-export default Hero1;
+export default HeaderBoy;

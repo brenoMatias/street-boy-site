@@ -1,0 +1,58 @@
+.contHeader {
+    display: flex;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-column-gap: 0.2em;
+    grid-row-gap: 1em;
+    justify-items: stretch;
+    align-items: stretch;
+    background-color: rgb(247, 240, 240);
+    height: 21em;
+}
+
+.contH11 {
+    /* background-color: rgb(235, 235, 241); */
+    height: 22em;
+    display: flex;
+    justify-content: center;
+    margin-top: 0em;
+}
+
+.contH111 {
+    /* background-color: rgb(235, 235, 241); */
+    height: 22em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -2em;
+}
+
+.boyCentralStreet {
+    height: 14em;
+    width: 25em;
+}
+
+.girlAndBoyHeader {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+    background-color: gold;
+    height: 8em;
+    border: 3px black solid;
+}
+
+.girlf {
+    color: black;
+    font-size: 0.5em;
+    display: flex;
+    justify-content: center;
+    margin-top: -3.5em;
+    text-decoration: none;
+}
+
+.boyF {
+    text-decoration: none;
+}
