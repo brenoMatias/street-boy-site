@@ -1,40 +1,14 @@
 import React from 'react';
 import './boyMainCss.css';
+import AsideBoy from '../AsideBoy/asideBoy';
 
 function BoyMain() {
     return (
         <div className='boyMain'>
 
-            <div className='aside'>
+            <div className='aside2'>
                 
-                <div className='topicLink'>
-                    T-shirts
-                </div>
-
-                <div className='topicLink'>
-                    Bermudas
-                </div>
-
-                <div className='topicLink'>
-                    Regatas
-                </div>
-
-                <div className='topicLink'>
-                    Shorts
-                </div>
-
-
-                <div className='topicLink'>
-                    Moleton
-                </div>
-
-                <div className='topicLink'>
-                    Calças
-                </div>
-
-                <div className='topicLink'>
-                    Acessórios
-                </div>
+               <AsideBoy />
 
             </div>
 
