@@ -6,6 +6,7 @@ import cart from './cart.png';
 import boy from './boy.png';
 import girl from './girl.png';
 import streetboy1 from './streetboy1.png'
+import street from './street.png'
 
 function HeaderBoy() {
     return (
@@ -42,7 +43,7 @@ function HeaderBoy() {
                         <h1 className='home'> Início</h1>
                    </div>
 
-                        <img src={streetboy1} className="boyCentralStreet" alt="" />
+                        <img src={street} className="boyCentralStreet" alt="" />
 
                     <div className='search'> 
                         <h1> buscar</h1>  

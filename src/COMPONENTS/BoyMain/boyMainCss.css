@@ -23,18 +23,20 @@
 
 
 .mostSellBoy {
-    background-color: rgb(170, 236, 170);
+    /* background-color: rgb(170, 236, 170); */
     width: 90%;
     height: 55em;
     margin-top: 8em;
     margin-left: 4em;
 } 
 
+
 .promotions {
-    background-color: rgb(246, 251, 246);
-    width: 99%;
-    height: 40em;
-    margin-top: 2em;
+    /* background-color: rgb(170, 236, 170); */
+    width: 90%;
+    height: 50em;
+    margin-top: 4em;
+    margin-left: 4em;
 } 
 
 .colections {
@@ -69,19 +71,41 @@
 }
 
 .highDiv1 {
-    background-color: blue;
+    /* background-color: blue; */
     height: 45em;
     width: 48%;
     margin-right: 1em;
 }
 
 .highDiv2 {
-    background-color: brown;
+    background-color: rgba(245, 222, 179, 0.471);
     height: 48%;
     width: 40em;
     margin-top: 1em;
+    display: flex;
+    justify-content: center;
 }
 
 .high2 {
     margin-top: -1em;
+}
+
+.hig3 {
+    height: 22em;
+}
+
+.promos {
+    display: flex;  
+    justify-content: center;
+}
+
+.promos1 {
+    margin-top: 4em;
+    height: 5em;
+    /* background-color: blueviolet; */
+    margin-left: 2em;
+    width: 40%;
+    height: 40em;
+    border: 10px inset #698010;
+
 }

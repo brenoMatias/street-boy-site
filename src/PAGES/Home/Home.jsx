@@ -4,6 +4,7 @@ import Hero1 from '../../COMPONENTS/Heroes/hero1/hero1';
 import Hero2 from '../../COMPONENTS/Heroes/hero2/hero2';
 import Hero3 from '../../COMPONENTS/Heroes/hero3/hero3';
 import Hero4 from '../../COMPONENTS/Heroes/hero4/hero4';
+import Hero5 from '../../COMPONENTS/Heroes/hero5/acessories'
 
 function Home() {
     return (
@@ -12,6 +13,7 @@ function Home() {
             <Hero2 />
             <Hero3 />
             <Hero4 />
+            <Hero5 />
 
         </div>
     )

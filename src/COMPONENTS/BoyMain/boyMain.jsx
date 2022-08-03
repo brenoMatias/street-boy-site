@@ -3,6 +3,9 @@ import './boyMainCss.css';
 import AsideBoy from '../AsideBoy/asideBoy'
 import award from './award.png'
 import boy from './boy.png'
+import crias from './crias.png'
+import tshirt from './tshirt.jpeg'
+import loudspeaker from './loudspeaker.png'
 
 function BoyMain() {
     return (
@@ -31,10 +34,11 @@ function BoyMain() {
 
                                <div className='high2'>
                                    <div className='highDiv2'>
-                                       lala
+                                       <img className='hig3' src={crias} />
                                    </div>
                                    <div className='highDiv2'>
-                                       lala
+                                        <img className='hig3' src={tshirt} />
+
                                    </div>
                                    
                                </div>
@@ -45,7 +49,19 @@ function BoyMain() {
 
                                 
                 <div className='promotions'>
-                    Promoções     
+                    <div className='highlights'>
+                        <h1 className='h1High'> Promoções</h1>
+                        <img className='imgH' src={loudspeaker}  alt="" />          
+                    </div>
+
+                    <div className='promos'>
+                        <div className='promos1'>
+                            haha
+                        </div>
+                        <div className='promos1'>
+                            haha
+                        </div>
+                    </div>
                 </div>
 
                                                 
