@@ -15,7 +15,7 @@ function BoyMain() {
             <div className='mainContent'>
                 
                 <div className='mostSellBoy'>
-                           Mais Vendidos
+                           Destaques
                 </div>
 
                                 

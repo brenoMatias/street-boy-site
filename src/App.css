@@ -1,0 +1,8 @@
+.help {
+    width: 10%;
+    position: fixed;
+    background-color: brown;
+    display: flex;
+    position: fixed;
+    margin-left: 90%;    
+}

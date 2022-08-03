@@ -10,6 +10,10 @@ function App() {
            <div className='frete'>
                 Frete grátis para compras acima de: xx,xx - animação 'pulse' pulsante
             </div>
+
+            <div className='help'> 
+            h1 ajuda 
+            <h1> link wpp</h1></div>
        <Routes>
 
           <Route exact path="/" element={ <Home /> } />
