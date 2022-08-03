@@ -1,4 +1,29 @@
 .footer {
-    background-color: rgb(194, 62, 62);
-    height: 20em;
+    background-color: rgba(12, 1, 1, 0.079);
+    height: 18em;
+    margin-bottom: -1.4em;
+}
+
+.contsFoot {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-column-gap: 10%;
+    grid-row-gap: 10%;
+    justify-items: stretch;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.contsFoot1 {
+    /* background-color: brown; */
+}
+
+.footIcons {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-column-gap: 10%;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+    margin-top: 4em;
 }

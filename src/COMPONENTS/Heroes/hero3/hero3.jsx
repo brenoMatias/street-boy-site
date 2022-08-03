@@ -26,7 +26,8 @@ function Hero3() {
             </div>
         
     <div className="coverF"> 
-        <Coverflow
+  
+  <Coverflow
       width={960}
       height={700}
       displayQuantityOfSide={2}

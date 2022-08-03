@@ -1,13 +1,13 @@
 .hero3 {
     height: 50em;
     margin-top: -0.2em;
-    background-color: rgb(218, 26, 26);
+    /* background-color: rgb(218, 26, 26); */
 
 }
 
 .coverF {
     margin-top: 0em;
-    background-color: rgb(240, 232, 232);
+    /* background-color: rgb(255, 255, 255); */
     height: 45em;
 }
 

@@ -66,7 +66,7 @@ function Hero1() {
                    
                    <div className='contact'> 
 
-                       <h1 className='h1A'> Contato/Sobre</h1>
+                       <h1 className='h1A'> Contato | Sobre</h1>
 
                  </div>
 

@@ -120,7 +120,7 @@
     background-color: green;
     display: flex;
     justify-content: center;
-    color: yellow;
+    color: white;
     font-size: 0.8em;
     height: 2.5em;
     width: 70%;
@@ -140,6 +140,7 @@
     font-size: 0.9em;
     justify-content: center;
     text-decoration: none;
+    color: black;
 }
 
 .linkH1 {

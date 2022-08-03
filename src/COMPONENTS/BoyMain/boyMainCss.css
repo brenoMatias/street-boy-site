@@ -24,9 +24,10 @@
 
 .mostSellBoy {
     background-color: rgb(170, 236, 170);
-    width: 99%;
-    height: 40em;
+    width: 90%;
+    height: 55em;
     margin-top: 8em;
+    margin-left: 4em;
 } 
 
 .promotions {
@@ -42,5 +43,45 @@
     height: 40em;
     margin-top: 2em;
     margin-bottom: 10em;
+}
 
+.highlights {
+    background-color: black;
+    color: white;
+    width: 20%;
+    height: 3em;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+}
+
+.h1High {
+    margin-left: 1em;
+}
+
+.imgH {
+    margin-left: 2em;
+}
+
+.highDivs {
+    display: flex;
+    margin-top: 4em;
+}
+
+.highDiv1 {
+    background-color: blue;
+    height: 48em;
+    width: 48%;
+    margin-right: 1em;
+}
+
+.highDiv2 {
+    background-color: brown;
+    height: 48%;
+    width: 40em;
+    margin-top: 1em;
+}
+
+.high2 {
+    margin-top: -1em;
 }

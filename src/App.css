@@ -6,3 +6,12 @@
     position: fixed;
     margin-left: 90%;    
 }
+
+.poweredby {
+    background-color: black;
+    color: white;
+    height: 4em;
+    font-size: 0.4em;
+    display: flex;
+    justify-content: center;
+}

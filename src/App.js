@@ -3,6 +3,7 @@ import Home from './PAGES/Home/Home'
 import { Route, Routes } from 'react-router-dom';
 import StreetBoy from './PAGES/StreetBoy/streetBoy';
 import Footer from './COMPONENTS/Footer/footer';
+import PagCertificate from './COMPONENTS/SellCertificate/certificate'
 
 function App() {
   return (
@@ -19,10 +20,17 @@ function App() {
           <Route exact path="/" element={ <Home /> } />
           <Route exact path="/streetMasculino" element={ <StreetBoy /> } />
 
-
        </Routes>
 
-<Footer />
+       <Footer />
+       <PagCertificate />
+
+       <div className='poweredby'>
+         <h1> 
+           Desenvolvido por Dream Mirror 
+           <> incone da Dream e link</>
+         </h1>
+       </div>
 
 
 
