@@ -2,6 +2,7 @@ import React from 'react';
 import './boyMainCss.css';
 import AsideBoy from '../AsideBoy/asideBoy'
 import award from './award.png'
+import boy from './boy.png'
 
 function BoyMain() {
     return (
@@ -25,7 +26,7 @@ function BoyMain() {
                            <div className='highDivs'>
 
                                <div className='highDiv1'>
-                                   lala
+                                   <img src={boy} />
                                </div>
 
                                <div className='high2'>
