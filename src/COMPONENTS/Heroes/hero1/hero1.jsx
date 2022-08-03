@@ -40,11 +40,13 @@ function Hero1() {
 
                <div className='contH1'>
 
-                   <a href='/'> 
+                   <a className='linkH1' href='/'> 
 
 
                         <img src={boyCentral} className="boyCentral" alt="" />
-
+                     <div >
+                         <h1 className='marca'> Mais que uma marca, um estilo de vida!</h1>
+                     </div>
                     <div className='search'> 
                         <h1> buscar</h1>  
                     </div>   

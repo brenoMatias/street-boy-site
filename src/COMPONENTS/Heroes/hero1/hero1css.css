@@ -131,3 +131,14 @@
     display: flex;
     justify-content: center;
 }
+
+.marca {
+    display: flex;
+    font-size: 0.9em;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.linkH1 {
+    text-decoration: none;
+}
