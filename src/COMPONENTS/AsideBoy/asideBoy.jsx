@@ -36,6 +36,11 @@ function AsideBoy () {
                 </div>
 
             </div>
+
+
+            <div className="filter">
+                filtros
+            </div>
         </div>
     )
 }

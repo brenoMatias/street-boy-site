@@ -5,6 +5,10 @@ import Coverflow from 'react-coverflow';
 import { StyleRoot } from 'radium';
 import doscria from './doscria.png';
 import darkgirl3 from './darkgirl3.jpg'
+import top from './top.png'
+import girlsSpace_space1 from './girlsSpace_space1.png'
+import plantHighBoy_nature2 from './plantHighBoy_nature2.jpeg'
+import dosCria2 from './dosCria2.jpeg'
 
 function Hero3() {
 
@@ -29,6 +33,7 @@ function Hero3() {
       navigation={false}
       enableHeading={false}
       
+      
     >
       <div
         onClick={() => fn()}
@@ -49,22 +54,22 @@ function Hero3() {
         data-action="http://andyyou.github.io/react-coverflow/"
       />
       <img
-        // src= { phoneLogo }
+        src= { top }
         alt="title or description"
         data-action="http://andyyou.github.io/react-coverflow/"
       />
       <img
-        // src= { smartLo }
+        src= { girlsSpace_space1 }
         alt="title or description"
         data-action="http://andyyou.github.io/react-coverflow/"
       />
       <img
-        // src= { micLo }
+        src= { plantHighBoy_nature2 }
         alt="title or description"
         data-action="http://andyyou.github.io/react-coverflow/"
       />
       <img
-        // src= { }
+        src= { dosCria2 }
         alt="title or description"
         data-action="http://andyyou.github.io/react-coverflow/"
       />

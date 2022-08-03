@@ -1,0 +1,26 @@
+.aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.topicLink {
+    border: 2px solid green;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 45px;
+    margin-top: 1em;
+    background-color: white;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-left: 2em;
+    margin-top: 2em;
+
+}
+
+.filter {
+    background-color: wheat;
+}

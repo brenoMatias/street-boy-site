@@ -46,6 +46,7 @@
     height: 10em;
     align-items: center;
     border: 3px black solid;
+    z-index: 1;
 }
 
 .girl {
