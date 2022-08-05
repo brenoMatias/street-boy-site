@@ -7,6 +7,12 @@ function Hero2() {
        <div className='hero2'>
 
       <img src={bag} className="boyandgirl" alt="" />
+    
+        <div className='tribo'> 
+             <h1>Vem pra Tribo da Rua! </h1>
+        
+        </div> 
+      
 
        </div>
    )
