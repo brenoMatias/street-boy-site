@@ -34,8 +34,8 @@
 
 .girlAndBoyHeader {
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-column-gap: 20px;
+    grid-template-columns: 40% 10% 45%;
+    grid-column-gap: 4%;
     grid-row-gap: 20px;
     justify-items: stretch;
     align-items: stretch;
@@ -55,4 +55,20 @@
 
 .boyF {
     text-decoration: none;
+}
+
+.inicioB {
+    font-size: 1em;
+    margin-top: 0em;
+}
+
+.inicioI {
+    margin-top: 2em;
+    margin-left: 0.2em;
+}
+
+.divIB {
+    margin-top: 2em;
+    margin-left: 6em;
+
 }

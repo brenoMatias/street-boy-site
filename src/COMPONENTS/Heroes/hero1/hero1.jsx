@@ -8,6 +8,7 @@ import login from './login.png';
 import signup from './signup.png';
 import cart from './cart.png';
 import { Link } from "react-router-dom";
+import streetClub from './streetClub.png'
 
 function Hero1() {
 
@@ -41,9 +42,11 @@ function Hero1() {
                <div className='contH1'>
 
                    <a className='linkH1' href='/'> 
-
-
-                        <img src={boyCentral} className="boyCentral" alt="" />
+                          <div className='streetIi'>
+                          <img src={streetClub} className="boyCentral" alt="" />
+      
+                        </div>
+                      
                      <div >
                          <h1 className='marca'> Mais que uma marca, um estilo de vida!</h1>
                      </div>

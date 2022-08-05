@@ -5,6 +5,11 @@ function AsideBoy () {
     return (
         <div>
                      <div className='aside'>
+
+                
+                <div className='topicLink'>
+                    Acessórios
+                </div>
                 
                 <div className='topicLink'>
                     T-shirts
@@ -31,9 +36,6 @@ function AsideBoy () {
                     Calças
                 </div>
 
-                <div className='topicLink'>
-                    Acessórios
-                </div>
 
             </div>
 

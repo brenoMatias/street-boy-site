@@ -54,7 +54,7 @@
 }
 
 .contH11 {
-    /* background-color: rgb(235, 235, 241); */
+    /* background-color: rgb(63, 63, 209); */
     height: 22em;
     display: flex;
     justify-content: center;
@@ -170,4 +170,13 @@
 
 .linkH1 {
     text-decoration: none;
+    /* background-color: #ffd700; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.streetIi {
+    display: flex;
+    justify-content: center;
 }

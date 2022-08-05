@@ -7,6 +7,7 @@ import boy from './boy.png';
 import girl from './girl.png';
 import streetboy1 from './streetboy1.png'
 import street from './street.png'
+import home from './home-button.png'
 
 function HeaderBoy() {
     return (
@@ -24,7 +25,6 @@ function HeaderBoy() {
 
                        <h1 className='h1h'> Já tenho conta</h1>
                     </div>
-
 
                     <div className='login'> 
                        <img src={signup} className="loginI" alt="" />
@@ -84,7 +84,6 @@ function HeaderBoy() {
                             <div> 
                                 <img  src={boy} className="boy" alt="" />
                             </div>
-
                         <div className='girlf'> 
                             <h1  > Moda Masculina</h1>
                         </div>
@@ -92,15 +91,17 @@ function HeaderBoy() {
                   </a>     
                </div>
 
+               <div className='divIB'>
+                   <img className='inicioI' src={home} />
+                   <h1 className='inicioB'> Início</h1>
+               </div>
+
                <div className='girl'>
                  <a href='' className='boyF'> 
                     <div className='girl11'> 
-
-              
-                        <div> 
+                            <div> 
                                 <img  src={girl} className="boy" alt="" />
                             </div>
-
                             <div className='girlf'> 
                                     <h1 > Moda Feminina</h1>
                             </div>
