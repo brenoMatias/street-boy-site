@@ -14,6 +14,8 @@ function Hero4() {
             <div className="collectH1"> 
              <div className="coleH1"> 
                 <h1> COLEÇÕES </h1>
+                
+                <h1 className="colectH11">( Artes e designs exclusivos ) </h1>
              </div>
             </div>
            

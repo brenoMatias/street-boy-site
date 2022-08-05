@@ -1,5 +1,6 @@
 import React from "react";
 import './asideBoyCss.css'
+import tshirt from './tshirt.png'
 
 function AsideBoy () {
     return (
@@ -9,10 +10,18 @@ function AsideBoy () {
                 
                 <div className='topicLink'>
                     Acessórios
+
+                    <div>
+                        
+                    </div>
                 </div>
                 
                 <div className='topicLink'>
                     T-shirts
+
+                    <div className="asideI">
+                        <img src={tshirt} />
+                    </div>
                 </div>
 
                 <div className='topicLink'>
