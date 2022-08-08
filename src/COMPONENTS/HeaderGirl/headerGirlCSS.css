@@ -1,0 +1,11 @@
+.girlAndBoyHeaderGirl {
+    display: grid;
+    grid-template-columns: 40% 10% 45%;
+    grid-column-gap: 4%;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+    background-color: rgba(42, 245, 2, 0.504);
+    height: 8em;
+    border: 3px black solid;
+}

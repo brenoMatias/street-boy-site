@@ -6,6 +6,8 @@ import boy from './boy.png'
 import crias from './crias.png'
 import tshirt from './tshirt.jpeg'
 import loudspeaker from './loudspeaker.png'
+import he from './he.png'
+import homeI from './homeI.png'
 
 function BoyMain() {
     return (
@@ -18,18 +20,26 @@ function BoyMain() {
             </div>
 
             <div className='mainContent'>
+
+            <div className='navBarSec'>
+                 <img  src={boy} className="boyMainI" alt="" />
+                 <img  src={homeI} className="boyMainII" alt="" />
+
+            </div>
+
                 
                 <div className='mostSellBoy'>
 
                     <div className='highlights'>
-                        <h1 className='h1High'> Destaques</h1>
+                             <h1 className='h1High'> Destaques</h1>
+
                         <img className='imgH' src={award}  alt="" />          
 
                     </div>
                            <div className='highDivs'>
 
                                <div className='highDiv1'>
-                                   <img src={boy} />
+                                   <img src={he} />
                                </div>
 
                                <div className='high2'>
@@ -47,6 +57,7 @@ function BoyMain() {
                            </div>
                 </div>
 
+           
                                 
                 <div className='promotions'>
                     <div className='highlights'>

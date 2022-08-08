@@ -1,14 +1,14 @@
 import React from 'react';
-import './headerBoy.css';
+import './headerGirlCSS.css';
 import login from './login.png';
 import signup from './signup.png';
 import cart from './cart.png';
 import boy from './boy.png';
 import girl from './girl.png';
-import street from './street.png'
+import girlLogo from './girlLogo.png'
 import home from './home-button.png'
 
-function HeaderGirl() {
+function HeaderBoy() {
     return (
         <div>
 
@@ -42,7 +42,7 @@ function HeaderGirl() {
                         <h1 className='home'> Início</h1>
                    </div>
 
-                        <img src={street} className="boyCentralStreet" alt="" />
+                        <img src={girlLogo} className="boyCentralStreet" alt="" />
 
                     <div className='search'> 
                         <h1> buscar</h1>  
@@ -75,7 +75,28 @@ function HeaderGirl() {
 
 
 
-           <div className='girlAndBoyHeader'>
+           <div className='girlAndBoyHeaderGirl'>
+
+
+           <div className='girl'>
+                 <a href='streetGirl' className='boyF'> 
+                    <div className='girl11'> 
+                            <div> 
+                                <img  src={girl} className="boy" alt="" />
+                            </div>
+                            <div className='girlf'> 
+                                    <h1 > Moda Feminina</h1>
+                            </div>
+                        </div>
+                  </a>
+                    </div>
+
+
+               <div className='divIB'>
+                   <img className='inicioI' src={home} />
+                   <h1 className='inicioB'> Início</h1>
+               </div>
+
 
            <div className='girl'>
                     <a href='/streetMasculino' className='boyF'>  
@@ -90,23 +111,6 @@ function HeaderGirl() {
                   </a>     
                </div>
 
-               <div className='divIB'>
-                   <img className='inicioI' src={home} />
-                   <h1 className='inicioB'> Início</h1>
-               </div>
-
-               <div className='girl'>
-                 <a href='/streetGirl' className='boyF'> 
-                    <div className='girl11'> 
-                            <div> 
-                                <img  src={girl} className="boy" alt="" />
-                            </div>
-                            <div className='girlf'> 
-                                    <h1 > Moda Feminina</h1>
-                            </div>
-                        </div>
-                  </a>
-                    </div>
 
 
 
@@ -120,4 +124,4 @@ function HeaderGirl() {
     ) 
 }
 
-export default HeaderGirl;
+export default HeaderBoy;

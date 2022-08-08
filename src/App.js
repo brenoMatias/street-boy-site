@@ -1,7 +1,8 @@
 import './App.css';
 import Home from './PAGES/Home/Home'
 import { Route, Routes } from 'react-router-dom';
-import StreetBoy from './PAGES/StreetBoy/streetBoy';
+import StreetBoy from './PAGES/StreetBoy/streetBoy'
+import StreetGirl from './PAGES/StreetGirl/streetGirl';
 import Footer from './COMPONENTS/Footer/footer';
 import PagCertificate from './COMPONENTS/SellCertificate/certificate'
 
@@ -14,11 +15,15 @@ function App() {
 
             <div className='help'> 
             h1 ajuda 
+            <h1> Topo da pagina</h1>
+
             <h1> link wpp</h1></div>
        <Routes>
 
           <Route exact path="/" element={ <Home /> } />
           <Route exact path="/streetMasculino" element={ <StreetBoy /> } />
+          <Route exact path="/streetGirl" element={ <StreetGirl /> } />
+
 
        </Routes>
 
