@@ -5,6 +5,8 @@ import StreetBoy from './PAGES/StreetBoy/streetBoy'
 import StreetGirl from './PAGES/StreetGirl/streetGirl';
 import Footer from './COMPONENTS/Footer/footer';
 import PagCertificate from './COMPONENTS/SellCertificate/certificate'
+import TshirtPage from './PAGES/Categories/Tshirts/TshirtPage';
+import AboutUs from './PAGES/QuemSomos/aboutUs';
 
 function App() {
   return (
@@ -21,8 +23,11 @@ function App() {
        <Routes>
 
           <Route exact path="/" element={ <Home /> } />
-          <Route exact path="/streetMasculino" element={ <StreetBoy /> } />
+          <Route exact path="/streetBoy" element={ <StreetBoy /> } />
           <Route exact path="/streetGirl" element={ <StreetGirl /> } />
+          <Route exact path="/streetBoy/tshirts" element={ <TshirtPage  /> } />
+          <Route exact path="/sobre" element= { <AboutUs /> } />
+
 
 
        </Routes>

@@ -61,11 +61,11 @@ function HeaderGirl() {
                     </div>
 
                    
+                <a href='/sobre'> 
                    <div className='contact'> 
-
                        <h1 className='h1A'> Contato/Sobre</h1>
-
-                 </div>
+                  </div>
+                </a>
 
         </div>
 
@@ -78,7 +78,7 @@ function HeaderGirl() {
            <div className='girlAndBoyHeader'>
 
            <div className='girl'>
-                    <a href='/streetMasculino' className='boyF'>  
+                    <a href='/streetBoy' className='boyF'>  
                         <div className='girl11'> 
                             <div> 
                                 <img  src={boy} className="boy" alt="" />

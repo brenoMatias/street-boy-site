@@ -1,0 +1,27 @@
+.aboutMain1 {
+    height: 50em;
+    /* background-color: aqua; */
+}
+
+.aboutHDiv {
+    background-color: rgba(0, 0, 0, 0.181);
+    height: 22em;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.aboutC {
+    /* background-color: rgb(165, 42, 157); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutMainI {
+    height: 20em;
+}

@@ -60,12 +60,12 @@ function HeaderBoy() {
                        <h1 className='h1h'> Carrinho</h1>
                     </div>
 
-                   
+                
+                <a className='/sobre'>
                    <div className='contact'> 
-
                        <h1 className='h1A'> Contato/Sobre</h1>
-
                  </div>
+                </a>
 
         </div>
 
@@ -99,7 +99,7 @@ function HeaderBoy() {
 
 
            <div className='girl'>
-                    <a href='/streetMasculino' className='boyF'>  
+                    <a href='/streetBoy' className='boyF'>  
                         <div className='girl11'> 
                             <div> 
                                 <img  src={boy} className="boy" alt="" />

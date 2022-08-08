@@ -67,11 +67,12 @@ function Hero1() {
                     </div>
 
                    
+                <a href='/sobre'>   
                    <div className='contact'> 
 
                        <h1 className='h1A'> Contato | Sobre</h1>
-
                  </div>
+                </a>
 
         </div>
 
@@ -100,7 +101,7 @@ function Hero1() {
                     </div>
 
                     <div className='girl'>
-                    <a href='/streetMasculino'>  
+                    <a href='/streetBoy'>  
                         <div className='girl1'> 
                             <div> 
                                 <img  src={boy} className="boy" alt="" />

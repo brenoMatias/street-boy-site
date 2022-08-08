@@ -1,0 +1,39 @@
+.asideT {
+    background-color: black;
+    height: 90%;
+    /* border: 3px solid rgb(5, 4, 0); */
+    border-right: 2px solid green;
+    margin-top: 5em;
+    border-radius: 45px;
+}
+
+.tshirtH1 {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    width: 15em;
+    border: 2px solid gold;
+    border-radius: 45px;
+
+}
+
+.highT {
+    /* background-color: rgba(0, 0, 0, 0.84); */
+    color: white;
+    width: 30%;
+    height: 3em;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5em;
+    /* border: 3px solid gold; */
+}
+
+.h1High1 {
+    color: gold;
+}
+
+.tshirtMain {
+    margin-top: 8em;
+}
