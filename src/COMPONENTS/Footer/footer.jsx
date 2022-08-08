@@ -17,7 +17,7 @@ function Footer() {
             <div className="contsFoot1">
                 <h1> Ajuda </h1>
                 <p> Pedidos </p>
-                <p> Quem somos</p>
+                <p> Quem somos | Contato</p>
                 <p> Trocas e Devoluções </p>
                 <p> Perguntas Frequentes</p>
                 <p> Política de Privacidade</p>
