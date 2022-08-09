@@ -1,5 +1,6 @@
 import React from 'react';
 import './slide.css'
+import acessories from './mockData';
 
 const colors = ["#0088FE", "#00C49F", "#0088FE", "#FFBB28", "#00C49F"];
 const delay = 2500;
@@ -19,7 +20,7 @@ function Slideshow() {
     timeoutRef.current = setTimeout(
       () =>
         setIndex((prevIndex) =>
-          prevIndex === colors.length - 1 ? 0 : prevIndex + 1
+          prevIndex === acessories.length - 1 ? 0 : prevIndex + 1
         ),
       delay
     );
@@ -40,20 +41,25 @@ function Slideshow() {
             className="slideshowSlider"
             style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
           >
-            {colors.map((backgroundColor, index) => (
+            {acessories.map((acessorie, index) => (
               <div
                 className="slide"
                 key={index}
-                style={{ backgroundColor }}
+                // style={{ backgroundColor }}
                 
               >
+              <div className='slideDivs'> 
+                <h1> {acessorie.name}</h1>
+                <img className='imgSlide' src={acessorie.imgUrl}/>
               </div>
+              </div>
+
               
             ))}
           </div>
 
           <div className="slideshowDots">
-            {colors.map((_, idx) => (
+            {acessories.map((_, idx) => (
               <div
                 key={idx}
                 className={`slideshowDot${index === idx ? " active" : ""}`}

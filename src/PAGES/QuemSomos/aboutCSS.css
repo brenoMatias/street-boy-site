@@ -25,3 +25,29 @@
 .aboutMainI {
     height: 20em;
 }
+
+.aboutText {
+    display: flex;
+    justify-content: center;
+}
+
+.aboutMainDiv {
+    width: 50%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+.contactA {
+    width: 20em;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    }
+
+.contactA2 {
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: center;
+}
