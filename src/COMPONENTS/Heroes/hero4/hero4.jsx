@@ -6,6 +6,7 @@ import girl from './girl.png'
 import flower from './flower-pot.png'
 import glass1 from './glass1.png'
 import athena from './athena.png'
+import FlipCard from "../../FlipCards/flipCard";
 
 function Hero4() {
     return (
@@ -27,7 +28,9 @@ function Hero4() {
                     <h1> CRIAS</h1> 
                     <img className="coleIcon" src= { glass1 } />
                     </div>    
-                    <img className="coleI" src= { girl } />
+
+                    <FlipCard />
+
             </div>
 
             <div className="colectionss">
@@ -36,7 +39,7 @@ function Hero4() {
                     <img className="coleIcon" src= {  flower } />
                     </div>    
                     
-                    <img className="coleI" src= { caue } />
+                    <FlipCard />
             </div>
 
             <div className="colectionss">
