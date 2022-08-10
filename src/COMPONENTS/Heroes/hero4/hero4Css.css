@@ -12,7 +12,7 @@
     grid-row-gap: 10px;
     justify-items: stretch;
     align-items: stretch;
-    margin-top: 4em;
+    margin-top: 2em;
 }
 
 .colectionss {
@@ -96,4 +96,20 @@
 .colectH11 {
     font-size: 1.2em;
     margin-left: 2em;
+}
+
+.boyAndGirlColect {
+    display: flex;
+    margin-left: 4em;
+    margin-top: 1em;
+}
+
+.colecHDiv {
+    background-color: aquamarine;
+    height: 4em;
+    width: 10em;
+}
+
+.colecDivIm {
+    height: 4em;
 }

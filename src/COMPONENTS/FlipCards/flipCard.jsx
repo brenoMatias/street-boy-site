@@ -1,5 +1,6 @@
 import React from 'react'
 import './flipCardCSS.scss'
+import caue from './caue.png'
 
 class FlipCard extends React.Component {
   render() {
@@ -52,6 +53,7 @@ class Back extends React.Component {
   render() {
     return (
       <div className="back">
+        <ImageAreaBack />
         <p>back.</p>
       </div>
     )
@@ -67,7 +69,17 @@ class ImageArea extends React.Component {
       </div>
     )
   }
+}
 
+class ImageAreaBack extends React.Component {
+  render() {
+    return (
+      <div className="image-container">
+        <img className="card-image" src={caue}></img>
+        {/* <h1 className="title">B</h1> */}
+      </div>
+    )
+  }
 }
 
 class MainArea extends React.Component {
