@@ -77,3 +77,5 @@ function Hero4() {
 }
 
 export default Hero4;
+
+// https://www.jetbrains.com/webstorm/guide/tutorials/react_typescript_tdd/class_props/
